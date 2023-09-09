@@ -14,6 +14,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2V4SWX3uwEvn9ZPQzP66gE66Lug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +24,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/elizaveta/IdeaProjects/yandex-test",
+    "last_opened_file_path": "/Users/elizaveta/IdeaProjects/mysite",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -41,6 +42,7 @@
       <updated>1694093892378</updated>
       <workItem from="1694093916353" duration="179000" />
       <workItem from="1694094201192" duration="85000" />
+      <workItem from="1694287243105" duration="106000" />
     </task>
     <servers />
   </component>

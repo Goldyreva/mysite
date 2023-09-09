@@ -1,0 +1,43 @@
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery h1{
+    width: 40%;
+    padding-right: 20px;
+}
+.gallery__photos {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery__photos__school, .gallery__photos__school {
+    width: 48%;
+}
+.gallery__photos__school img, .gallery__photos__school img {
+    width: 100%;
+    border: 10px solid white;
+}
+.gallery__photos p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery h1{
+        width: 100%;
+        padding-right: 0;
+    }
+    .gallery__photos {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .gallery__photos {
+        width: 100%;
+    }
+}

@@ -1,0 +1,58 @@
+.lesson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lesson__example {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.lesson__example img {
+    width: 40%;
+    margin: 0 auto;
+    align-self: center;
+    animation: fly 4s ease-in-out infinite;
+}
+.lesson__video {
+    width: 48%;
+}
+.lesson__video video {
+    width: 100%;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(100px) translateY(30px);
+    }
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+    75% {
+        transform: translateX(-100px) translateY(30px);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lesson {
+        flex-direction: column;
+    }
+    .lesson__example {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .lesson__example img {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .lesson__video {
+        width: 100%;
+    }
+}
